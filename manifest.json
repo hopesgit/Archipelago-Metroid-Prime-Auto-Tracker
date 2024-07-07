@@ -1,0 +1,13 @@
+{
+	"name": "Metroid Prime AP Tracker",
+	"game_name": "Metroid Prime",
+	"package_version": "0.1.0",
+	"package_uid": "ap_metprime",
+	"author": "hopesgit",
+	"variants": {
+		"items_only": {
+			"display_name": "Item Tracker",
+			"flags": ["ap"]
+		}
+    }	
+} 

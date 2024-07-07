@@ -1,0 +1,98 @@
+[
+    {
+        "visors": [
+            {
+                "name": "Combat Visor",
+                "type": "toggle",
+                "img": "",
+                "codes": "combat_visor"
+            },
+            {
+                "name": "Scan Visor",
+                "type": "toggle",
+                "img": "",
+                "codes": "scan_visor"
+            },
+            {
+                "name": "Thermal Visor",
+                "type": "toggle",
+                "img": "",
+                "codes": "thermal_visor"
+            },
+            {
+                "name": "X-Ray Visor",
+                "type": "toggle",
+                "img": "",
+                "codes": "xray_visor"
+            }
+        ]
+    },
+    
+    { 
+        "beams": [
+            {
+                "name": "Charge Beam",
+                "type": "toggle",
+                "img": "/images/charge_beam.png",
+                "codes": "charge_beam"
+            },
+            {
+                "name": "Ice Beam",
+                "type": "toggle",
+                "img": "",
+                "codes": "ice_beam"
+            },
+            {
+                "name": "Phazon Beam",
+                "type": "toggle",
+                "img": "",
+                "codes": "phazon_beam"
+            },
+            {
+                "name": "Plasma Beam",
+                "type": "toggle",
+                "img": "",
+                "codes": "plasma_beam"
+            },
+            {
+                "name": "Power Beam",
+                "type": "toggle",
+                "img": "/images/power_beam.png",
+                "codes": "power_beam"
+            },
+            {
+                "name": "Wave Beam",
+                "type": "toggle",
+                "img": "",
+                "codes": "wave_beam"
+            },
+            {
+                "name": "Progressive Power Beam",
+                "type": "progressive",
+                "loop": false,
+                "stages": [
+                    {
+                        "img": "/images/items/power_beam.png",
+                        "img_mods": "overlay|@disabled",
+                        "codes": "prog_power_beam",
+                        "name": "Progressive Power Beam: Off"
+                    },
+                    {
+                        "img": "/images/items/power_beam.png",
+                        "name": "Progressive Power Beam: Beam"
+                    },
+                    {
+                        "img": "/images/items/power_beam.png",
+                        "img_mods": "overlay|/images/charge_beam.png",
+                        "name": "Progressive Power Beam: Charge"
+                    },
+                    {
+                        "img": "/images/items/power_beam.png",
+                        "img_mods": "overlay|/images/super_missile.png",
+                        "name": "Progressive Power Beam: Super Missile"
+                    }
+                ]
+            }
+        ]
+    }
+]
